@@ -43,3 +43,9 @@ Before(async function(testCase) {
   this.browser = await this.client.launchBrowser();
 });
 ```
+
+process.argv to get the browser name 
+which configure in nightwatch.config.js, and then split it out and input to process.env.browser 
+selenium configure in nightwatch.config.js
+
+
